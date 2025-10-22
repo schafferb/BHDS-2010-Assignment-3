@@ -2,7 +2,7 @@
 BHDS Assignment 3: Collaborating in Github (Bryanna Schaffer and Ibrahim Elbasheer)
 
 # Authors
-Bryanna Schaffer
+Bryanna Schaffer \\
 Ibrahim Elbasheer
 
 # Assignment Description
