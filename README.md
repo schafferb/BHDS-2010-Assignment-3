@@ -2,8 +2,7 @@
 BHDS Assignment 3: Collaborating in Github (Bryanna Schaffer and Ibrahim Elbasheer)
 
 # Authors
-Bryanna Schaffer \\
-Ibrahim Elbasheer
+Bryanna Schaffer and Ibrahim Elbasheer
 
 # Assignment Description
 This assignment analyzes the amount of total text messages a person typed collected at two different time points (baseline and 6 months after baseline) for participants categorized into two groups (Group 1 and Group 2). 
