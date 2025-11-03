@@ -57,7 +57,7 @@ head(TextMessages_long)
 
 Visualization #1: Stratified boxplots of text messages by Group and Time
 
-Below, we used the long format dataset to show text messages by group and time. To do so, we filled and wrapped our plot with the Group variable (Group 1 and Group 2). We see a similar trend of text messages over time for each group. There appears to be a decrease in the mean number of text messages from baseline to six months after the baseline. However, it appears that Group 2 has a greater mean number of text messages overall, meaning at the baseline and six months after. There are multiple outliers at the six month post baseline for group 1, while for group 2 there appears to only be two outliers. 
+Below, we used the long format dataset to show text messages by group and time. To do so, we filled and wrapped our plot with the Group variable (Group 1 and Group 2). We see a similar trend of text messages over time for each group. There appears to be a decrease in the median number of text messages from baseline to six months after the baseline. However, it appears that Group 2 has a greater median number of text messages overall, meaning at the baseline and six months after. There are multiple outliers at the six month post baseline for group 1, while for group 2 there appears to only be two outliers. 
 
 ```{r}
 ggplot(TextMessages_long, aes(x = Time, y = Messages, fill = Group)) + geom_boxplot() + 
@@ -73,6 +73,8 @@ ggplot(TextMessages_long, aes(x = Time, y = Messages, fill = Group)) + geom_boxp
 
 Summary Statistics: Summary statistics of Text Messages by Group and Time. I also performed summary statistics of Text Messages by Group and Text Messages by Time.
 
+Based on the summary statistics of text messages by both group and time, we see the greatest mean text messages to be 65.6 in the baseline measurement of group 2. We see the minimum value of text messages in group 1 six months after the baseline is 9, which is seen as an outlier in the boxplot above. Group 1 six months after the baseline has the greatest amount of variation of approximately 266.71  with a range of 69, while group 2 six months after the baseline has the least amount of variation of 88.56 with a range of 33. This also follows the greatest standard deviation of 16.33 in group 1 six months after baseline, while for group 2 six months after baseline the standard deviation is 9.41.
+
 ```{r}
 
 by(TextMessages_long$Messages, TextMessages_long$Group, stat.desc)
@@ -83,6 +85,6 @@ summary <- by(TextMessages_long$Messages,
    list(Group = TextMessages_long$Group, Time = TextMessages_long$Time), 
    stat.desc)
 
-table(summary)
+summary
 
 ```
