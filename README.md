@@ -15,7 +15,8 @@ This data contains 50 participants with half (25) in group 1 and the other half 
 10/21/2025 - Initial repository setup by Bryanna Schaffer
 10/25/2025 - IbrahimElbasheer invited to repository
 
-# Roles are assigned the following  roles:
+# Roles:
+Roles are assigned as follow:
 Visualization #1: Boxplot of text messages by Group and Time (Faceted Boxplot), Bryanna Schaffer.
 Visualization #2: Bbar charts of text messages Group and Time (Faceted Bar Charts) Ibrahim Elbasheer.
 Summary Statistics: Summary statistics of Text Messages by Group and Time, Bryanna Schaffer.
