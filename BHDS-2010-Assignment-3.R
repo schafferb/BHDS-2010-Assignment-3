@@ -33,4 +33,6 @@ barplot_d_by_Group_and_Time+
        y="Time") +
   facet_wrap(.~Group, nrow = 1)
 
-
+# The Bar plot shows difference in means between Baseline and in six months period
+# for each group. According to the plot, in this sample, the average Text Messages
+# in Baseline is significantly higher the it in six months period for both groups.
