@@ -11,6 +11,16 @@ This assignment analyzes the amount of total text messages a person typed collec
 TextMessages.csv
 This data contains 50 participants with half (25) in group 1 and the other half (25) in group 2. The data was collected at two different time points: the baseline and 6 months after the baseline. 
 
+# Roles and Responsibilities
+Bryanna: Visualization #1 and Summary Statistics
+
+Ibrahim: Visualization #2 and Documentation
+
 # Change History
 10/21/2025 - Initial repository setup by Bryanna Schaffer
+
 10/25/2025 - IbrahimElbasheer invited to repository
+
+10/31/2025 - Roles were assigned 
+
+11/2/2025 - Bryanna pushed assigned roles to "Bryanna" branch
