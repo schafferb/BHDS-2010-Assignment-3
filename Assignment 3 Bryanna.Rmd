@@ -42,7 +42,7 @@ TextMessages <- TextMessages %>%
 head(TextMessages$Group)
 ```
 
-Converting data from wide to long format:
+Converting data from wide to long format: This allows for Time to be represented in two categories: baseline and six_months. It takes those values and assigns it to that specific time period. Now, this long data set has the variables Group, Participant, Time, and Messages.
 
 ```{r}
 TextMessages_long <- TextMessages %>%
@@ -56,6 +56,8 @@ head(TextMessages_long)
 ```
 
 Visualization #1: Stratified boxplots of text messages by Group and Time
+
+Below, we used the long format dataset to show text messages by group and time. To do so, we filled and wrapped our plot with the Group variable (Group 1 and Group 2). We see a similar trend of text messages over time for each group. There appears to be a decrease in the mean number of text messages from baseline to six months after the baseline. However, it appears that Group 2 has a greater mean number of text messages overall, meaning at the baseline and six months after. There are multiple outliers at the six month post baseline for group 1, while for group 2 there appears to only be two outliers. 
 
 ```{r}
 ggplot(TextMessages_long, aes(x = Time, y = Messages, fill = Group)) + geom_boxplot() + 
