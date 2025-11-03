@@ -12,5 +12,11 @@ library(reshape2)
 library(ggplot2)
 #===============================================================================
 
+#Converting Data to Long Format:
+
+TextMessages_long<- melt(TextMessages, id = c("Participant","Group"),
+                         measured =c(Baseline,Six_months))
+
+#===============================================================================
 
 
