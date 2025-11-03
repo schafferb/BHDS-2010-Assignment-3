@@ -20,3 +20,13 @@ TextMessages_long<- melt(TextMessages, id = c("Participant","Group"),
 #===============================================================================
 
 
+barplot_d_by_Group_and_Time<-ggplot(TextMessages_long,aes(x = variable,
+                                                          y = Participant))
+barplot_d_by_Group_and_Time+ 
+  stat_summary(fun.data = mean_cl_normal,geom = "bar", colour = "blue" ,
+               fill="lightblue") +
+  labs(title="Text Messages by Group and Time Period",
+       x="Average Number of Text Messages",
+       y="Participants") +
+  facet_wrap(.~Group)
+
