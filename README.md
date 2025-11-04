@@ -21,6 +21,4 @@ Ibrahim: Visualization #2 and Documentation
 
 10/25/2025 - IbrahimElbasheer invited to repository
 
-10/31/2025 - Roles were assigned 
 
-11/2/2025 - Bryanna pushed assigned roles to "Bryanna" branch
