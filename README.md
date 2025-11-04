@@ -38,4 +38,4 @@ The final result of this assignment is can be viewed under "Assignment3Final.Rmd
 
 11/3/2025 - Bryanna submitted the assignment
 
-11/3/2025 - Ibrahim reviewed the submitted pdf and edited the bar plot sections. He knited the R marketdown, committed, and pushed it.
+11/4/2025 - Ibrahim reviewed the submitted pdf and edited the bar plot sections. He knited the R marketdown, committed, and pushed it.
