@@ -36,4 +36,5 @@ The final result of this assignment is can be viewed under "Assignment3Final.Rmd
 
 11/3/2025 - Bryanna created a single RMarkdown file "Assignment3Final" with all responsibilities. She knitted the document into a pdf then added the Rmd and pdf to the main branch. The README.md file was also updated. 
 
+11/3/2025 - Bryanna submitted the assignment
 
