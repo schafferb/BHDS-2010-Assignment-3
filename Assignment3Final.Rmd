@@ -73,7 +73,7 @@ ggplot(TextMessages_long, aes(x = Time, y = Messages, fill = Group)) + geom_boxp
 
 Visualization #2 - Ibrahim: Stratified bar plot of text messages by Group and Time
 
-The bar plot shows difference in means between  baseline and six months after the baseline period for each group. According to the plot, in this sample, the average number of text messagesis significantly higher in the baseline than six months after for both groups (Group 1 and Group 2).
+The bar plot shows difference in means between  baseline and six months after the baseline period for each group. According to the plot, in this sample, the average number of text messages is significantly higher in the baseline than six months after for both groups (Group 1 and Group 2). The average number of text messages in the baseline seems same in Group 1 and Group 2, while in six month after the average is lower in Group 1 than it in Group 2.
 ```{r}
 barplot_d_by_Group_and_Time<-ggplot(TextMessages_long,aes(x = Time,
                                                   y = Messages, fill = Group))
@@ -81,8 +81,8 @@ barplot_d_by_Group_and_Time+
   stat_summary(fun.data = mean_cl_normal,geom = "bar", colour = "blue" ,
                fill="lightblue") +
   labs(title="Text Messages by Group and Time Period",
-       x="Average Number of Text Messages",
-       y="Time") +
+       x="Time",
+       y="Average Number of Text Messages") +
   facet_wrap(.~Group, nrow = 1)
 ```
 
