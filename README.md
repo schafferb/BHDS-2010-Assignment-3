@@ -11,13 +11,14 @@ This assignment analyzes the amount of total text messages a person typed collec
 TextMessages.csv
 This data contains 50 participants with half (25) in group 1 and the other half (25) in group 2. The data was collected at two different time points: the baseline and 6 months after the baseline. 
 
+# Roles and Responsibilities
+Bryanna: Visualization #1 and Summary Statistics
+
+Ibrahim: Visualization #2 and Documentation
+
 # Change History
 10/21/2025 - Initial repository setup by Bryanna Schaffer
+
 10/25/2025 - IbrahimElbasheer invited to repository
 
-# Roles:
-Roles are assigned as follow:
-Visualization #1: Boxplot of text messages by Group and Time (Faceted Boxplot), Bryanna Schaffer.
-Visualization #2: Bbar charts of text messages Group and Time (Faceted Bar Charts) Ibrahim Elbasheer.
-Summary Statistics: Summary statistics of Text Messages by Group and Time, Bryanna Schaffer.
-Documentation: Update the README.md file with activity details and instructions, Ibrahim Elbasheer. 
+
